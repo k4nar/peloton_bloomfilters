@@ -3,12 +3,12 @@ try:
 except ImportError:
     from distutils.core import setup, Extension
 
-setup(name='peloton_bloomfilters',
+setup(name='peloton_bloomfilters_py3',
       author = 'Adam DePrince',
       author_email = 'adam@pelotoncycle.com',
-      url = 'https://github.com/pelotoncycle/peloton_bloomfilters',
-      version='0.0.1',
-      description="Peloton Cycle's Bloomin fast Bloomfilters",
+      url = 'https://github.com/k4nar/peloton_bloomfilters',
+      version='0.0.2',
+      description="Peloton Cycle's Bloomin fast Bloomfilters - Python 2 & 3 compatibility",
       ext_modules=(
           [
               Extension(

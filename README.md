@@ -3,6 +3,15 @@
 `peloton_bloomfilter.SharedMemoryBloomfilter` is the easiest to use,
 fastest bloomfilter implementation for cPython.
 
+Note: This is a fork of https://github.com/pelotoncycle/peloton_bloomfilters
+adding compatibility with Python 3.
+
+It can be installed with:
+
+```shell
+pip install peloton_bloomfilters_py3
+```
+
 
 ##  Usage
 
